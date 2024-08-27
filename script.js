@@ -1,4 +1,4 @@
-const text = "Hii hayo mana masakan gua";
+const text = "Hayo Mana Masakan Gua";
 const typewriter = document.getElementById("typewriter");
 
 function typeWriterEffect(text, element) {

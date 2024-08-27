@@ -10,12 +10,13 @@ h1 {
   text-align: center;
   color: white;
   font-family: "Poppins", sans-serif;
-  white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden; /* Hide the text that overflows */
   border-right: 0.15em solid white; /* Add a caret */
   font-size: 2em;
   margin: 20px auto;
-  width: fit-content;
+  width: 80%; /* Adjust width as needed */
+  display: inline-block; /* Allow h1 to wrap and shrink to content */
+  animation: blinkCaret 0.5s step-end infinite;
 }
 
 /* Keyframes for the typewriter effect */
@@ -24,7 +25,7 @@ h1 {
     width: 0;
   }
   to {
-    width: 40%;
+    width: 100%;
   }
 }
 
